@@ -37,7 +37,7 @@ After repository is downloaded, to test contracts run the following command
 (it's not a typo, it is `forge forge`):
 
 ```
-docker compose run forge forge test
+docker compose run forge "forge test"
 ```
 
 ![image](https://user-images.githubusercontent.com/62797411/212988333-5ca00164-6f78-4528-8b26-acfce36cf549.png)
