@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  forge:
+    image: ghcr.io/foundry-rs/foundry
+    working_dir: /app
+    volumes:
+      - ~/.gitconfig:/root/.gitconfig # required for deps
+      - ./:/app
+    ports:
+      - 8545:8545
